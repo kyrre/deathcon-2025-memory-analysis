@@ -366,7 +366,7 @@ def _(mo):
     1. *Direct file query* - read the Parquet file produced by Volatility without loading it into memory:
 
        ```bash
-       vol -f CLIENT-02.dmp -r parquet windows.pslist > volatility_plugin_output/windows.pslist.PsList.parquet
+       uv run vol -f CLIENT-02.dmp -r parquet windows.pslist > volatility_plugin_output/windows.pslist.PsList.parquet
        ```
     2. *In-memory tables* - load the data into the notebook’s database for repeated queries.
 
