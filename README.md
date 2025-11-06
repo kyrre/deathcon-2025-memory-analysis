@@ -8,7 +8,9 @@
 
 # Building Custom Memory Analysis Tools with the Modern Python Data Ecosystem
 
-By [Kyrre Wahl Kongsgård](https://www.linkedin.com/in/kyrrewk/) and [Anja Olsen](https://www.linkedin.com/in/anja-olsen-5a2643b9/)
+By [Kyrre Wahl Kongsgård](https://www.linkedin.com/in/kyrrewk/) and [Anja Olsen](https://www.linkedin.com/in/anja-olsen-5a2643b9/).
+
+The attack scenario and memory dump used in this workshop were created by [Øyvind Brusethaug](https://www.linkedin.com/in/%C3%B8yvind-brusethaug-2b123339/).
 
 ## Overview
 
