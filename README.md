@@ -29,11 +29,7 @@ We demonstrate how marimo and DuckDB can be combined to create a notebook-based 
 
 ### Videos
 
-<div align="center">
-
-[![Companion video playlist](https://img.youtube.com/vi/GjLrWeB5s9M/0.jpg)](https://www.youtube.com/watch?v=GjLrWeB5s9M&list=PLXJPlQrY3W8YdU9--Ogz7TaP5qFLRVqt-)
-
-</div>
+Watch the [companion video playlist](https://www.youtube.com/watch?v=GjLrWeB5s9M&list=PLXJPlQrY3W8YdU9--Ogz7TaP5qFLRVqt-) on YouTube.
 
 # Setup
 
