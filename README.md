@@ -27,9 +27,15 @@ We demonstrate how marimo and DuckDB can be combined to create a notebook-based 
 - Correlate data across multiple Volatility plugins
 - Use marimo's AI features for assisted analysis
 
-Join the workshop's [Discord channel](https://discord.com/channels/1249481364277825557/1427526483156533370) for questions, discussion, companion videos, and access to the memory dump.
+### Videos
 
-## Setup
+<div align="center">
+
+[![Companion video playlist](https://img.youtube.com/vi/GjLrWeB5s9M/0.jpg)](https://www.youtube.com/watch?v=GjLrWeB5s9M&list=PLXJPlQrY3W8YdU9--Ogz7TaP5qFLRVqt-)
+
+</div>
+
+# Setup
 
 ```bash
 # Clone the repository
@@ -40,6 +46,8 @@ cd deathcon-workshop
 # See: https://docs.astral.sh/uv/getting-started/installation/
 
 # Create virtual environment and install dependencies
+# On Ubuntu/Debian, you may need: sudo apt install build-essential python3-dev
+# On RPM-based systems (Fedora, RHEL): sudo dnf install gcc-c++ python3-devel
 uv sync
 
 # Launch notebooks
@@ -47,6 +55,8 @@ uv run marimo edit .
 ```
 
 The workshop consists of 6 notebooks (1-6). Start with `1_getting_started_with_marimo.py` and work through them in order.
+
+The memory dump can be downloaded from here: [CLIENT-02.dmp](https://datasets.marimo.app/deathcon/CLIENT-02.dmp) (thanks to marimo for hosting!).
 
 ## Notebook Settings
 
@@ -68,6 +78,8 @@ For more configuration options, see the [marimo configuration docs](https://docs
 Place the Windows memory dump file (`CLIENT-02.dmp`) in the project root directory.
 
 We run Volatility using `uv run vol` because Volatility 3 is included as a project dependency. This has been tested on macOS and Windows.
+
+**PowerShell users:** The `>` redirect operator in PowerShell treats output as text rather than binary, which corrupts Parquet files. Use `cmd.exe`, Git Bash, or WSL instead when redirecting Volatility output.
 
 First time running Volatility, create a configuration file to save the symbol table information:
 
